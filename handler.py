@@ -4,12 +4,14 @@
 URL = "https://api.telegram.org/bot497831974:AAGQf1mIsQlgIrFSFOH09i5g-mynyAfHlVc/getUpdates"
 
 def handle_message(message, nickname="user"):
+    a = []
     if message == 'ПОЗИТИВ!':
+
         return'igbbhreb'
     elif message == 'БОЛЬ!':
         return'gfbnrthw'
     else:
-        return 'bheobjrjegh'
+        return 'У нас такого нет('
 
 if __name__ == "__main__":
     # dirty python magic, will talk about on the next lesson
